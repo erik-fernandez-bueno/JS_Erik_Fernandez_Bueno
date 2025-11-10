@@ -32,3 +32,32 @@
     let suma = a + b;
     console.log(suma);
 /*Exercici12*/
+    let boolea = true;
+    let text2 = boolea.toString();
+    console.log(text2);
+    let boolea1 = false;
+    let text = boolea1 + "";
+    console.log(text);
+/*Exercici13*/
+    let text = "Hola món";
+    let booleaExplicit = Boolean(text);
+    console.log(booleaExplicit);
+    let text = "Hola món";
+    if (text) {
+        console.log("true");
+    } else {
+        console.log("false");
+    }
+/*Exercici14*/
+    let valorTrue = true;
+    let valorFalse = false;
+    // 🔹 Coerción explícita
+    let numExplicitoTrue = Number(valorTrue);
+    let numExplicitoFalse = Number(valorFalse);
+    console.log(`Number(true) = ${numExplicitoTrue}`);
+    console.log(`Number(false) = ${numExplicitoFalse}`);
+    // 🔹 Coerción implícita
+    let numImplicitoTrue = valorTrue * 1;
+    let numImplicitoFalse = valorFalse * 1;
+    console.log(`true * 1 = ${numImplicitoTrue}`);
+    console.log(`false * 1 = ${numImplicitoFalse}`);
