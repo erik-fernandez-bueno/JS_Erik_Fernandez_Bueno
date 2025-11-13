@@ -1,7 +1,7 @@
 /* Exercici1*/
     console.log("Erik")
-    console.log("Fernández Bueno")
-    console.log("2004")
+    console.warn("Fernández Bueno")
+    console.error("2004")
 /*Exercici2*/
     var numeros = 2
     let letras = "hola"

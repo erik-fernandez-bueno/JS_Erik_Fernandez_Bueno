@@ -27,23 +27,23 @@
 /*Exercici10*/
     console.log(nom.slice(0,6),nom.slice(7))
 /*Exercici11*/
-    let a;
-    let b = null;
-    let suma = a + b;
-    console.log(suma);
+    var a;
+    var a = null;
+    var suma1 = a + b;
+    console.log(suma1);
 /*Exercici12*/
     let boolea = true;
-    let text2 = boolea.toString();
-    console.log(text2);
+    let text3 = boolea.toString();
+    console.log(text3);
     let boolea1 = false;
     let text = boolea1 + "";
     console.log(text);
 /*Exercici13*/
-    let text = "Hola món";
-    let booleaExplicit = Boolean(text);
+    let text1 = "Hola món";
+    let booleaExplicit = Boolean(text1);
     console.log(booleaExplicit);
-    let text = "Hola món";
-    if (text) {
+    let text2 = "Hola món";
+    if (text2) {
         console.log("true");
     } else {
         console.log("false");
