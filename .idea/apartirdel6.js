@@ -28,7 +28,7 @@
     console.log(nom.slice(0,6),nom.slice(7))
 /*Exercici11*/
     var a;
-    var a = null;
+    var b = null;
     var suma1 = a + b;
     console.log(suma1);
 /*Exercici12*/
